@@ -1,6 +1,6 @@
 const express = require('express');
-const { PORT } = require('./src/constants');
-const filesRouter = require('./src/routes/files');
+const { PORT } = require('./constants');
+const filesRouter = require('./routes/files');
 const cors = require('cors');
 
 const app = express();
